@@ -1,0 +1,46 @@
+<!-- Code from d3-graph-gallery.com -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+
+    <div class="container">
+    <h1>Netflix Data Map Page</h1>
+    <div>
+
+        <!---
+        <label for="genre">Choose a genre:</label>
+        <select name="genre">
+        </select>
+        --->
+    </div>
+
+    <p>Note: I wrote everything from scratch and couldn't get everything to work in one page. So I wrote some
+    indivudal pages with some of the week 2 requirements in seperate pages.  I'll make an appointment with the questions that I have.
+    <br /> <br /> 
+    There is code (with no JS errors) to generate the map but it doesn't work with the and the bargraph. See the <a href="index.html">bargraph page </a>.
+    </div>
+    
+    
+    </p>
+        <div>
+            <h4>Release Year</h4>
+            <!-- Create a barchart from the release years in the dataset -->
+            <svg class="xvar"></svg>
+        </div>
+        <div>
+            <h4>Country of production</h4>
+            <!-- create a choropleth/bubble map from the dataset -->
+            <svg class="map" width="700" height="500"></svg>
+        </div>
+
+    </div>  
+  <script src="wk3_map.js" ></script>  
+</body>
